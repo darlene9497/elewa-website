@@ -11,8 +11,8 @@ export class ContentDevHeroSectionComponent {
     subtitle: '',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolorem ipsum quia dolor sit Eos qui ratione voluptatem sequi nesciunt.',
   };
-  
+
   heroButtonData = {
-    text: 'Unlock your potential',
+    text: 'Unlock your potential'
   }
 }

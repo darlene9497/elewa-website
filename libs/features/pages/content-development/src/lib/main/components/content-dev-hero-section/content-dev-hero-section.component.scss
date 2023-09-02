@@ -1,0 +1,18 @@
+.dev-hero-section{
+    width: 100vw;
+    height: 100vh;
+
+    .hero-text {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        width: 60%;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+
+    .hero-button{
+        margin-top: 350px;
+        margin-left: 65px;
+    }
+}
