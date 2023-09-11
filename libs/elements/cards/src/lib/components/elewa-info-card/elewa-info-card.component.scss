@@ -19,3 +19,27 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .info-card{
+    gap: 0.5rem;
+  }
+
+  .info-card-content {
+    max-width: 100%;
+  }
+
+  .icon-img {
+    max-width: 18px;
+    max-height: 18px;
+    transform: translateY(5px);
+  }
+
+  .info-card-title {
+    font-size: 1.5rem; 
+  }
+
+  .info-card-text {
+    font-size: 1rem;
+  }
+}

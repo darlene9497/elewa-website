@@ -29,21 +29,18 @@
     @media (max-width: 768px) {
     .container {
         h1 {
-            font-size: 24px;
+            font-size: var(--elewa-website-learning-services-font);
         }
-    
+
         span {
-            font-size: 24px;
+            font-size: var(--elewa-website-learning-services-font);
         }
     }
 
         .cards {
-            max-width: 800px;
-            bottom: 30px;
-            height: auto;
+            bottom: 10px;
             display: grid;
-            grid-template-columns: repeat(2, 2fr); 
-            grid-gap: 20px; 
+            grid-template-columns: repeat(3, 1fr); 
         }
     }
 }
